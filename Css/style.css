@@ -1,0 +1,753 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s;
+}
+
+body{
+  background-color: black;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+a :hover{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+i{
+  color: #2fccd0;
+}
+
+p{
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.extra-div h3, .servicediv h3{
+  font-size: 1.1rem;
+  margin: 20px 0 15px 0;
+  font-weight: bold;
+  line-height: 1.1;
+  word-spacing: 4;
+}
+
+
+/********* accul css classes stared*****/
+
+
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0,0,0,0.5)), url(../image/header_img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+
+.header ::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  opacity: .1;
+  z-index: -1;
+  background: linear-gradient(to right, #0CBD16 0%, #504BD8 0%, #119F87F7 100%);
+}
+
+.navbar ::before{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  opacity: .1;
+  z-index: -1;
+  background: white;
+}
+
+
+.nav-item a{
+  color: black;
+  font-weight: bold;
+}
+
+.header_section{
+  width: 100%;
+  height: inherit;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.center_div{
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  
+}
+
+
+.logo{
+  color: black;
+}
+
+
+
+.head_text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.center_div p{
+  font-size: 1.3rem;
+  padding: 0px 0 20px 0;
+  color: white;
+}
+
+.header_button a{
+  border: 1px solid #fff;
+  border-radius: 100px;
+  font-size: 1rem;
+  color: white;
+  margin: 0 5px;
+  padding: 12px 25px;
+  font-weight: 400;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header_button :hover{
+  background: #97C63C;
+  color: #652724;
+  text-decoration: none;
+  border: 1px solid #97C63C;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5)
+}
+
+
+
+
+
+
+
+.about{
+  height: 50vh;
+  margin-top: 200px;
+  color: white;
+}
+
+.about-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about-text .heading{
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #46474D;
+  box-shadow: 0 0 5px #0000008F;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.about-text .heading h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+.about-text .details{
+  text-transform: capitalize;
+  text-align: justify;
+  
+}
+
+.about-text .details p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.about-text .details span{
+  font-size: 50px;
+}
+
+
+.links{
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+
+.links a {
+  font-size: 30px;
+  margin: 0px 5px;
+  color: #888A96;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** extra tree div css stared*********/
+
+.tree_box{
+  width: 100%;
+  height: 30vh;
+  margin-top: 100px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.extra-div{
+  border: medium none;
+  padding: 50px;
+  margin: auto;
+  border-radius: 3px;
+  transition: 0.3s;
+  color: white;
+}
+
+
+.extra-div:hover{
+  background: #414249;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+  transform: translateY(-20px);
+}
+
+
+/********** extra tree div css end*********/
+
+/********** service offered div css stared*********/
+
+
+.serviceoffer{
+  height: 40vh;
+  padding: 50px 0;
+  margin: 50px 0;
+  color: white;
+}
+
+
+.hadding {
+  margin-bottom: 50px;
+}
+
+.hadding h1{
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.names h3{
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.service-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.progress{
+  height: 0.6rem!important;
+  margin-bottom: 25px!important;
+  background: #FF7474;
+}
+
+
+/********** service offered div css end*********/
+
+
+
+/*==================
+contact section
+=====================*/
+
+
+.contact {
+  height: 50vh;
+  margin-top: 100px;
+  color: white;
+}
+
+.contact .contact-text {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact .contact-text h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact .contact-text a {
+  font-size: 30px;
+  margin: 20px 5px;
+  color: #888A96;
+}
+
+.contact .contact-text a:last-child{
+  font-weight: 600;
+}
+
+
+
+
+.contact-text input{
+  border: none;
+  padding: 5px;
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  float: left;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+
+#name{
+  width: 48%;
+}
+#email{
+  width: 48%;
+  margin-left: 22px;
+}
+#subject{
+  width: 100%;
+  height: 40px;
+}
+#massage{
+  width: 100%;
+  height: 70px;
+}
+
+
+
+.contact-text #submit-massage{
+  position: relative;
+  top: 60%;
+  padding: 10px 20px;
+  background-color: #2735D2;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+
+
+
+
+/*----------
+footer
+------------*/
+
+footer{
+  height: 20vh;
+  background: #212529;
+}
+
+.text-white{
+  font-size: 25px;
+}
+
+.text-muted li a{
+  color: #828394DE;
+}
+
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .center_div {
+    width: 100%;
+    height: auto;
+    padding: 0px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+  }
+
+  .logo {
+    color: white;
+  }
+
+
+
+  .head_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+
+
+  .center_div p {
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: -10px;
+  }
+
+
+  .header_button {
+    margin-bottom: 10px;
+  }
+
+
+  .header_button a {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    color: white;
+    margin: 0 5px;
+    padding: 4px 10px;
+    font-weight: 400;
+    line-height: 1.4;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  .about{
+  height: 110vh;
+  margin-top: 100px;
+  color: white;
+}
+
+.about-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about-text .heading{
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #46474D;
+  box-shadow: 0 0 5px #0000008F;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.about-text .heading h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+.about-text .details{
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.about-text .details p{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+.about-text .details span{
+  font-size: 30px;
+}
+
+  
+  
+  
+.links {
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+
+.links a {
+  font-size: 20px;
+  margin: 0px 3px;
+  color: #888A96;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .tree_box {
+    width: 100%;
+    height: 110vh;
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  
+  
+  .serviceoffer{
+  height: 100vh;
+  padding: 50px 0;
+  margin: 50px 0;
+  color: white;
+}
+
+  
+  
+  
+  
+  .hadding h1{
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.names h3{
+  color: gray;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  .contact {
+  height: 70vh;
+  margin-top: 100px;
+}
+
+.contact .contact-text {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact .contact-text h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-text h2{
+  font-size: 10px;
+}
+
+  
+  .contact .contact-text a {
+  font-size: 15px;
+  margin: 20px 2px;
+  color: gray;
+}
+
+  
+  
+  
+  
+  .contact-text input {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    color: black;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    float: left;
+    border-bottom: 1px solid gray;
+  }
+  
+  
+  
+  
+#name{
+  width: 100%;
+  height: 20px;
+}
+#email{
+  width: 100%;
+  margin-left: 0;
+  height: 20px;
+}
+#subject{
+  width: 100%;
+  height: 25px;
+}
+#massage{
+  width: 100%;
+  height: 30px;
+}
+
+
+.contact-text #submit-massage{
+  position: relative;
+  top: 60%;
+  padding: 5px 10px;
+  background-color: #2735D2;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+
+
+
+footer{
+  height: 40vh;
+  background: #212529;
+}
+
+.text-white{
+  font-size: 15px;
+}
+
+.text-muted li a{
+  color: #828394DE;
+}
+
+
+.text-small {
+  font-size: 0.5rem;
+}
+
+
+
+
+
+}
