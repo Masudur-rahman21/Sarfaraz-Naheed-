@@ -192,6 +192,13 @@ p{
   
 }
 
+.about-text .head h3{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
 .about-text .details p{
   font-size: 25px;
   font-weight: 500;
@@ -576,6 +583,15 @@ a:hover, a:focus {
 .about-text .details span{
   font-size: 30px;
 }
+
+.about-text .head h3{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
 
   
   
